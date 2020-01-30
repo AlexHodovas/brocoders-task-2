@@ -1,14 +1,14 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "734aab89cff7a97e1a558dce7d0fbd65",
+    "revision": "43fe6704034143e5bde0333a65f12f4d",
     "url": "/brocoders-task-2/index.html"
   },
   {
-    "revision": "e3eb83a380c26db45283",
-    "url": "/brocoders-task-2/static/css/main.72f630a6.chunk.css"
+    "revision": "fb890080c13842f00c0e",
+    "url": "/brocoders-task-2/static/css/main.5dbd6f44.chunk.css"
   },
   {
-    "revision": "e3eb83a380c26db45283",
+    "revision": "fb890080c13842f00c0e",
     "url": "/brocoders-task-2/static/js/main.6b9181c5.chunk.js"
   },
   {
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/brocoders-task-2/static/media/doctor-hands-heart.6b92aba2.png"
   },
   {
-    "revision": "845c3ce90dcc9285b4d83807ff7ca591",
-    "url": "/brocoders-task-2/static/media/header-background.845c3ce9.png"
+    "revision": "f52589da58d3f68647ecb1cb59f3f2e0",
+    "url": "/brocoders-task-2/static/media/header-background.f52589da.png"
   },
   {
     "revision": "26896e345b0c73178f624bea4b8cd318",
