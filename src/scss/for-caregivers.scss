@@ -1,0 +1,386 @@
+@import "./utils/vars.scss";
+
+.for-caregivers {
+  color: white;
+  display: flex;
+  background-color: $main-green-color
+}
+
+.for-caregivers-left {
+  display: flex;
+  flex-direction: column;
+  margin-right: 41px;
+
+  &__title {
+    margin-top: 172px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 100px;
+    margin-left: 61px;
+  }
+
+  &__button {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 38px;
+    align-items: center;
+    color: white;
+    width: 276px;
+    height: 72px;
+    border: 2px solid white;
+    background: rgba(0, 0, 0, 0.0001);
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-top: 80px;
+    margin-left: 60px;
+  }
+}
+
+.for-caregivers-right {
+  display: flex;
+  margin-top: 92px;
+  position: relative;
+
+  &__info {
+
+    .caregivers-post {
+      display: flex;
+
+      .img-in-circle {
+        position: relative;
+
+        &__insidePicture {
+          position: absolute;
+          top: 17px;
+          left: 17px;
+        }
+      }
+
+      &__about {
+        margin-left: 18px;
+
+        .title {
+          margin-top: 19px;
+          width: 227px;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 22px;
+          line-height: 26px;
+        }
+
+        .descr {
+          margin-top: 8px;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 22px;
+        }
+      }
+    }
+
+    .search-post {
+      margin-left: 120px;
+      margin-bottom: 61px;
+    }
+
+    .select-post {
+      text-align: end;
+      margin-left: 260px;
+      margin-right: 122px;
+      margin-bottom: 25px;
+
+      .caregivers-post__about {
+        margin-left: 0;
+        margin-right: 16px;
+      }
+    }
+
+    .test-period-post {
+      margin-left: 120px;
+    }
+
+    .pay-after-post {
+      text-align: end;
+      margin-top: 61px;
+      margin-left: 260px;
+
+      .caregivers-post__about {
+        margin-left: 0;
+        margin-right: 16px;
+        .descr {
+          padding-bottom: 112px;
+        }
+      }
+
+      .img-in-circle {
+
+        &__insidePicture {
+          top: 15px;
+          left: 22px;
+        }
+      }
+    }
+  }
+}
+
+.arrow1 {
+  position: absolute;
+  top: 30px;
+  right: 0;
+}
+
+.arrow-connection-right {
+  position: relative;
+
+  &__part2 {
+    position: absolute;
+    bottom: -8px;
+    left: 147px;
+  }
+}
+
+.arrow2 {
+  position: absolute;
+  top: 210px;
+  right: 437px;
+}
+
+.arrow-connection-left {
+  position: relative;
+
+  &__part2 {
+    position: absolute;
+    bottom: -8px;
+    left: 90px;
+  }
+}
+
+.arrow3 {
+  position: absolute;
+  top: 398px;
+  left: 437px;
+}
+
+@media (max-width: 1400px) {
+  .for-caregivers-left {
+    margin-right: 31px;
+
+    &__title {
+      margin-top: 172px;
+      font-size: 60px;
+      line-height: 80px;
+      margin-left: 51px;
+    }
+
+    &__button {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 38px;
+      align-items: center;
+      color: white;
+      width: 276px;
+      height: 72px;
+      border: 2px solid white;
+      background: rgba(0, 0, 0, 0.0001);
+      box-sizing: border-box;
+      border-radius: 5px;
+      margin-top: 80px;
+      margin-left: 60px;
+    }
+  }
+}
+
+@media (max-width: 1250px) {
+  .for-caregivers-left {
+
+    &__title {
+      margin-top: 90px;
+      font-size: 40px;
+      line-height: 50px;
+    }
+
+    &__button {
+      width: 256px;
+      height: 62px;
+      margin-top: 60px;
+    }
+  }
+}
+
+@media (max-width: 1100px) {
+  .for-caregivers {
+    flex-direction: column;
+  }
+
+  .for-caregivers-left {
+    flex-direction: row;
+    justify-content: center;
+
+    &__title {
+      margin-top: 50px;
+      font-weight: 700;
+    }
+
+    &__button {
+      align-self: center;
+    }
+  }
+
+  .for-caregivers-right {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .arrow1 {
+    right: 201px;
+  }
+
+  .arrow2 {
+    right: 640px;
+  }
+
+  .arrow3 {
+    left: 637px;
+  }
+}
+
+@media (max-width: 1070px) {
+  .arrow-connection-right {
+    &__part1 {
+      width: 200px;
+    }
+
+    &__part2 {
+      left: 130px;
+    }
+
+  }
+
+  .arrow-connection-left {
+    &__part1 {
+      width: 200px;
+    }
+
+    &__part2 {
+      left: 70px;
+    }
+  }
+}
+
+@media (max-width: 1050px) {
+  .arrow1 {
+    right: 240px;
+  }
+
+  .arrow2 {
+    right: 580px;
+  }
+
+  .arrow3 {
+    left: 590px;
+  }
+}
+
+@media (max-width: 1010px) {
+  .arrow1 {
+    right: 210px;
+  }
+
+  .arrow3 {
+    left: 510px;
+  }
+}
+
+@media (max-width: 920px) {
+  .arrow1,
+  .arrow2,
+  .arrow3 {
+    display: none;
+  }
+  .for-caregivers-right {
+
+    &__info {
+      .search-post,
+      .select-post,
+      .pay-after-post,
+      .test-period-post {
+        margin-bottom: 0;
+        margin-top: 0;
+      }
+
+      .pay-after-post {
+        .caregivers-post__about {
+          .descr {
+            padding-bottom: 50px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 680px) {
+
+  .for-caregivers-left {
+    &__title {
+      margin-top: 10px;
+      font-size: 28px;
+    }
+
+    &__button {
+      font-size: 16px;
+      width: 200px;
+      line-height: 18px;
+    }
+  }
+
+  .for-caregivers-right {
+
+    &__info {
+      .select-post {
+        margin-right: 0;
+      }
+
+      .search-post,
+      .test-period-post {
+        margin-left: 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+
+  .for-caregivers-left {
+    &__title {
+      font-size: 24px;
+      line-height: normal;
+    }
+
+    &__button {
+      font-size: 14px;
+      width: 160px;
+      height: 40px;
+    }
+  }
+
+  .for-caregivers-right {
+
+    &__info {
+      .select-post,
+      .pay-after-post {
+        margin-left: 70px;
+      }
+
+      .search-post,
+      .test-period-post,
+      .select-post {
+        margin-bottom: 20px;
+      }
+    }
+  }
+}

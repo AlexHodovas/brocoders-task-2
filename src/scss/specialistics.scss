@@ -1,0 +1,217 @@
+.specialists {
+  max-width: 1348px;
+  height: 545px;
+  margin: 0 auto;
+  background-color: white;
+
+  &__title-h3 {
+    margin-top: 50px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 100px;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__options {
+    display: flex;
+    margin-left: 45px;
+    margin-right: 45px;
+    justify-content: space-between;
+  }
+}
+
+.post {
+  padding-top: 30px;
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .post__title {
+    margin-top: 35px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+  }
+
+  .post__description {
+    margin-top: 35px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+.kind-of-care {
+ color: black;
+ text-align: center;
+
+ &__with-experience {
+  img:nth-child(1) {
+    width: 117px;
+    height: 120px;
+  }
+
+  p:nth-child(3) {
+    margin-top: 37px;
+  }
+}
+
+ &__with-massage {
+   img:nth-child(1) {
+     width: 163px;
+     height: 109px;
+   }
+
+   p:nth-child(2) {
+    padding-top: 10px;
+    padding-bottom: 30px;
+  }
+ }
+
+ &__with-nurses {
+  img:nth-child(1) {
+    width: 107px;
+    height: 122px;
+  }
+
+  p:nth-child(2) {
+    margin-top: 32px;
+    font-size: 21px;
+  }
+
+  p:nth-child(3) {
+    margin-top: 38px;
+  }
+
+}
+
+ &__with-therapy {
+  img:nth-child(1) {
+    width: 122px;
+    height: 118px;
+  }
+
+  p:nth-child(2) {
+    padding-bottom: 30px;
+  }
+}
+}
+
+@media (max-width: 1100px) {
+  .specialists {
+    &__title-h3 {
+      margin-top: 50px;
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 100px;
+    }
+
+    &__options {
+      margin-left: 25px;
+      margin-right: 25px;
+    }
+  }
+}
+
+@media (max-width: 950px) {
+  .specialists {
+    &__title-h3 {
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 60px;
+    }
+
+    &__options {
+      margin-left: 25px;
+      margin-right: 25px;
+    }
+  }
+
+  .post {
+    .post__title {
+      font-size: 18px;
+      line-height: 24px;
+    }
+  }
+
+  .kind-of-care {
+
+    &__with-experience {
+     img:nth-child(1) {
+       width: 117px;
+       height: 120px;
+     }
+
+     p:nth-child(3) {
+       margin-top: 37px;
+     }
+   }
+
+    &__with-massage {
+
+      p:nth-child(3){
+        margin-top: 31px;
+      }
+    }
+
+    &__with-nurses {
+
+    p:nth-child(2) {
+       font-size: 17px;
+     }
+
+     p:nth-child(3) {
+       margin-top: 38px;
+     }
+   }
+  }
+}
+
+@media (max-width: 901px) {
+  .specialists {
+    height: fit-content;
+
+    &__options {
+      display: flex;
+      flex-flow: wrap;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  }
+
+  .post {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 370px;
+  }
+
+  .kind-of-care {
+
+    &__with-therapy {
+
+     p:nth-child(3) {
+        margin-top: 9px;
+     }
+   }
+  }
+}
+
+@media (max-width: 800px) {
+  .specialists {
+
+    &__options {
+      justify-content: center;
+    }
+  }
+
+  .post {
+    width: 400px;
+  }
+}

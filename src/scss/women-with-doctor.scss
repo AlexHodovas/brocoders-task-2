@@ -1,0 +1,17 @@
+.women-with-doctor {
+  height: 520px;
+  background: url(../img/women-with-doctor.png) no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 800px) {
+  .women-with-doctor {
+    height: 400px;
+  }
+}
+
+@media (max-width: 600px) {
+  .women-with-doctor {
+    height: 300px;
+  }
+}

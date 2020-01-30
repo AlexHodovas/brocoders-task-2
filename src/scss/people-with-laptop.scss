@@ -1,0 +1,29 @@
+.people-with-laptop {
+  height: 520px;
+  background: url(../img/people-with-laptop.png) no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 900px) {
+  .people-with-laptop {
+    height: 420px;
+  }
+}
+
+@media (max-width: 700px) {
+  .people-with-laptop {
+    height: 370px;
+  }
+}
+
+@media (max-width: 600px) {
+  .people-with-laptop {
+    height: 300px;
+  }
+}
+
+@media (max-width: 500px) {
+  .people-with-laptop {
+    height: 200px;
+  }
+}

@@ -1,0 +1,2 @@
+(this["webpackJsonpbrocoders-task-2"]=this["webpackJsonpbrocoders-task-2"]||[]).push([[0],[function(s,o,t){s.exports=t(1)},function(s,o,t){"use strict";t.r(o);t(2)},function(s,o,t){}],[[0,1]]]);
+//# sourceMappingURL=main.6b9181c5.chunk.js.map

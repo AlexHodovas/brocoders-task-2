@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/brocoders-task-2/static/css/main.72f630a6.chunk.css",
+    "main.js": "/brocoders-task-2/static/js/main.6b9181c5.chunk.js",
+    "main.js.map": "/brocoders-task-2/static/js/main.6b9181c5.chunk.js.map",
+    "runtime-main.js": "/brocoders-task-2/static/js/runtime-main.c117d987.js",
+    "runtime-main.js.map": "/brocoders-task-2/static/js/runtime-main.c117d987.js.map",
+    "index.html": "/brocoders-task-2/index.html",
+    "precache-manifest.fb26b072f66b50f8d46e9248efc55536.js": "/brocoders-task-2/precache-manifest.fb26b072f66b50f8d46e9248efc55536.js",
+    "service-worker.js": "/brocoders-task-2/service-worker.js",
+    "static/css/main.72f630a6.chunk.css.map": "/brocoders-task-2/static/css/main.72f630a6.chunk.css.map",
+    "static/media/main.scss": "/brocoders-task-2/static/media/women-with-doctor.53d7cf43.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c117d987.js",
+    "static/css/main.72f630a6.chunk.css",
+    "static/js/main.6b9181c5.chunk.js"
+  ]
+}

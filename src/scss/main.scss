@@ -1,0 +1,30 @@
+@import "utils/vars";
+@import "utils/reset";
+
+@import "./header.scss";
+@import "./careWithCompany.scss";
+@import "./specialistics.scss";
+@import "./women-with-doctor.scss";
+@import "./for-caregivers.scss";
+@import "./doctor-hands-heart.scss";
+@import "./clients-chat.scss";
+@import "./people-with-laptop.scss";
+@import "./statistics.scss";
+@import "./call-to-us.scss";
+@import "./footer.scss";
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Maven Pro', sans-serif;
+  background-color: white;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+button:hover {
+  cursor: pointer;
+}
