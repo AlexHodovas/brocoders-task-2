@@ -22,7 +22,7 @@
         &__line {
           height: 2px;
           width: 50px;
-          background: $main-blue-color
+          background: $main-blue-color;
         }
 
         &__text {
@@ -64,6 +64,7 @@
       border-radius: 5px;
       position: relative;
       z-index: 1;
+      transition: background-color 0.7s ease-out;
     }
 
     .statistics-heart {
@@ -162,4 +163,12 @@
       margin-left: 15px;
     }
   }
+}
+
+.statics-button:hover {
+  background-color: $main-red-color;
+}
+
+.statics-button:active {
+  opacity: 0.6;
 }

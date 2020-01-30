@@ -41,6 +41,7 @@
     height: 40px;
     opacity: 0.9;
     margin-bottom: 41px;
+    transition: background-color 0.5s ease-out;
   }
 }
 
@@ -62,4 +63,13 @@
       margin-bottom: 20px;
     }
   }
+}
+
+.call-to-us__phone-number:hover {
+  background-color: $main-green-color;
+  color: white;
+}
+
+.call-to-us__phone-number:active {
+  opacity: 0.6;
 }

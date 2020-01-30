@@ -35,6 +35,7 @@
     border-radius: 5px;
     margin-top: 80px;
     margin-left: 60px;
+    transition: background-color 0.7s ease-out;
   }
 }
 
@@ -383,4 +384,12 @@
       }
     }
   }
+}
+
+.for-caregivers-left__button:hover {
+  background-color: $main-red-color;
+}
+
+.for-caregivers-left__button:active {
+  opacity: 0.6;
 }

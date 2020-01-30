@@ -1,3 +1,5 @@
+@import "./utils/vars.scss";
+
 .footer {
   background: #0B2A37;
   color: white;
@@ -13,6 +15,9 @@
     .footer-logo {
       margin-top: 85px;
       margin-bottom: 33px;
+      .logo {
+        transition: background-color 0.5s, border-radius 0.1s ease-out;
+      }
     }
 
     .follow-us {
@@ -71,6 +76,7 @@
           color: white;
           line-height: 30px;
           font-weight: normal;
+          transition: color 0.5s ease-out;
         }
       }
     }
@@ -155,5 +161,33 @@
         }
       }
     }
+  }
+}
+
+.useful-links {
+  .link:hover {
+    color: $main-red-color;
+  }
+}
+
+.follow-us {
+  &__in:hover,
+  &__facebook:hover,
+  &__twitter:hover {
+    border-bottom: 1px solid $main-red-color;
+  }
+}
+
+.useful-links {
+  .link:active {
+    opacity: 0.6;
+  }
+}
+
+.follow-us {
+  &__in:active,
+  &__facebook:active,
+  &__twitter:active {
+    opacity: 0.6;
   }
 }

@@ -28,3 +28,21 @@ body {
 button:hover {
   cursor: pointer;
 }
+
+a:hover {
+  color: $main-red-color;
+}
+
+a:active {
+  color: $main-green-color;
+}
+
+.logo:hover {
+  background-color: wheat;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.logo:active {
+  opacity: 0.6;
+}
