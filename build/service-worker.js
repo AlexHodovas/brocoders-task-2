@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/brocoders-task-2/precache-manifest.fb26b072f66b50f8d46e9248efc55536.js"
+  "/brocoders-task-2/precache-manifest.ff59ff09f9b73a4041d934f753b0aed7.js"
 );
 
 self.addEventListener('message', (event) => {
