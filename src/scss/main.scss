@@ -4,14 +4,15 @@
 @import "./header.scss";
 @import "./careWithCompany.scss";
 @import "./specialistics.scss";
-@import "./women-with-doctor.scss";
-@import "./for-caregivers.scss";
-@import "./doctor-hands-heart.scss";
-@import "./clients-chat.scss";
-@import "./people-with-laptop.scss";
+@import "./womenWithDoctor.scss";
+@import "./forCaregivers.scss";
+@import "./doctorHandsHeart.scss";
+@import "./clientsChat.scss";
+@import "./peopleWithLaptop.scss";
 @import "./statistics.scss";
-@import "./call-to-us.scss";
+@import "./callToUs.scss";
 @import "./footer.scss";
+@import "./hamburgerMenu.scss";
 
 body {
   margin: 0;
@@ -27,10 +28,12 @@ body {
 
 button:hover {
   cursor: pointer;
+  text-decoration: underline;
 }
 
 a:hover {
   color: $main-red-color;
+  text-decoration: underline;
 }
 
 a:active {

@@ -1,14 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <link
-    href="https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,800,900&display=swap"
-    rel="stylesheet"
-  >
+  <link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,800,900&display=swap" rel="stylesheet">
   <title>brocodersTask2</title>
   <script src="../src/index.js"></script>
 </head>
@@ -20,7 +17,7 @@
     <header class="header">
 
       <div class="header-top">
-
+        
         <div class="header-top__logo">
           <a href="#">
             <img class="logo" src="./img/logo.png" alt="logo">
@@ -39,7 +36,7 @@
             </li>
 
             <li class="actions__call-us">
-              <a class="link header__link" href="tel:+48 567 365 485">
+              <a class="link header__link" href="tel:+48567365485">
                 CALL&nbsp;US
               </a>
             </li>
@@ -52,20 +49,32 @@
               <a class="link header__link" href="#">Log&nbsp;In</a>
             </li>
 
-            <li class="actions__menu">
-              <input id="toggle" class="menu__toggle" type="checkbox">
-              <label for="toggle" class="menu__btn">
-                <span class="menu__span"></span>
-              </label>
-              <a class="link header__link link__menu" href="#">Menu</a>
-            </li>
-
           </ul>
 
         </nav>
 
-      </div>
+        <nav class="header-top__nav-menu">
 
+          <div id="menuToggle">
+            <p class="menu-title">Menu</p>
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+
+            <ul id="menu">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Info</a></li>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          
+        </nav>
+
+      </div>
+      
       <div class="header-bottom">
         <h1 class="header-bottom__title-h1">Znajdź&nbsp;opiekuna</h1>
         <h2 class="header-bottom__title-h2">dla swoich najbliższych</h2>
@@ -84,7 +93,7 @@
     <main class="main">
 
       <section class="care-with-company">
-        <p>Want to care with Geriana?&ensp;</p>
+        <h2>Want to care with Geriana?&ensp;</h2>
         <a href="#" class="care-with-company__become-a-caregiver">
           Become&ensp;a&ensp;Caregiver
         </a>
@@ -153,12 +162,12 @@
 
         <div class="for-caregivers-left">
 
-          <p class="for-caregivers-left__title">
+          <h3 class="for-caregivers-left__title">
             Jak Działamy <br />
             dla <br />
             Poszukujących <br />
              Opieki
-          </p>
+          </h3>
           <button class="for-caregivers-left__button" type="button">
             ZNAJDŹ&ensp;OPIEKUNKĘ
           </button>
@@ -253,8 +262,7 @@
             <div class="arrow-connection-right">
               <img class="arrow-connection-right__part1" src="./img/for-caregivers/connection-arrow.svg"
                 alt="connection-arrow">
-              <img class="arrow-connection-right__part2" src="./img/for-caregivers/arrow-left.svg"
-                alt="arrow-left">
+              <img class="arrow-connection-right__part2" src="./img/for-caregivers/arrow-left.svg" alt="arrow-left">
             </div>
           </div>
 
@@ -262,8 +270,7 @@
             <div class="arrow-connection-left">
               <img class="arrow-connection-left__part1" src="./img/for-caregivers/connection-arrow2.svg"
                 alt="connection-arrow">
-              <img class="arrow-connection-left__part2" src="./img/for-caregivers/arrow-right.svg"
-                alt="arrow-left">
+              <img class="arrow-connection-left__part2" src="./img/for-caregivers/arrow-right.svg" alt="arrow-left">
             </div>
           </div>
 
@@ -271,10 +278,11 @@
             <div class="arrow-connection-right">
               <img class="arrow-connection-right__part1" src="./img/for-caregivers/connection-arrow.svg"
                 alt="connection-arrow">
-              <img class="arrow-connection-right__part2" src="./img/for-caregivers/arrow-left.svg"
-                alt="arrow-left">
+              <img class="arrow-connection-right__part2" src="./img/for-caregivers/arrow-left.svg" alt="arrow-left">
             </div>
           </div>
+
+      </div>
 
       </section>
 
@@ -483,9 +491,9 @@
         </div>
 
         <div class="statistics__right">
-          <p class="statics-title">
+          <h4 class="statics-title">
             Nasze Mocne  <br /> Strony
-          </p>
+          </h4>
           <button class="statics-button" type="button">
             ZNAJDŹ OPIEKUNKĘ
           </button>
@@ -497,18 +505,15 @@
       <section class="call-to-us">
 
         <div class="call-to-us__question-and-answer">
-          <p class="question">
+          <h5 class="question">
             Chcesz wiedziedzieć więcej?
-          </p>
+          </h5>
           <p class="answer">
             Odwiedź nasze centrum pomocy lub zadzwoń
           </p>
         </div>
 
-        <a
-          class="call-to-us__phone-number"
-          href="tel:+48 567 365 485"
-        >
+        <a class="call-to-us__phone-number" href="tel:+48567365485">
           Call +48 567 365 485
         </a>
 
