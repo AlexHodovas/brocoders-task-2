@@ -4,15 +4,17 @@
 @import "./header.scss";
 @import "./careWithCompany.scss";
 @import "./specialistics.scss";
-@import "./womenWithDoctor.scss";
+@import "./womenWithDoctorSmiling.scss";
 @import "./forCaregivers.scss";
-@import "./doctorHandsHeart.scss";
+@import "./handsShowHeart.scss";
 @import "./clientsChat.scss";
-@import "./peopleWithLaptop.scss";
+@import "./peopleWithLaptopSmiling.scss";
 @import "./statistics.scss";
 @import "./callToUs.scss";
 @import "./footer.scss";
+
 @import "./hamburgerMenu.scss";
+@import "./buttonFindCaregiver.scss";
 
 body {
   margin: 0;
@@ -48,4 +50,12 @@ a:active {
 
 .logo:active {
   opacity: 0.6;
+}
+
+* {
+  user-select: none;
+}
+
+.block {
+  display: flex;
 }

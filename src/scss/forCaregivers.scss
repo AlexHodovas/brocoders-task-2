@@ -19,109 +19,88 @@
     line-height: 100px;
     margin-left: 61px;
   }
-
-  &__button {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 38px;
-    align-items: center;
-    color: white;
-    width: 276px;
-    height: 72px;
-    border: 2px solid white;
-    background: rgba(0, 0, 0, 0.0001);
-    box-sizing: border-box;
-    border-radius: 5px;
-    margin-top: 80px;
-    margin-left: 60px;
-    transition: background-color 0.7s ease-out;
-  }
 }
 
 .for-caregivers-right {
   display: flex;
   margin-top: 92px;
   position: relative;
+}
 
-  &__info {
+.caregivers-post {
+  display: flex;
 
-    .caregivers-post {
-      display: flex;
+  .img-in-circle {
+    position: relative;
 
-      .img-in-circle {
-        position: relative;
+    &__insidePicture {
+      position: absolute;
+      top: 17px;
+      left: 17px;
+    }
+  }
 
-        &__insidePicture {
-          position: absolute;
-          top: 17px;
-          left: 17px;
-        }
-      }
+  &__about {
+    margin-left: 18px;
 
-      &__about {
-        margin-left: 18px;
-
-        .title {
-          margin-top: 19px;
-          width: 227px;
-          font-style: normal;
-          font-weight: bold;
-          font-size: 22px;
-          line-height: 26px;
-        }
-
-        .descr {
-          margin-top: 8px;
-          font-style: normal;
-          font-weight: normal;
-          font-size: 16px;
-          line-height: 22px;
-        }
-      }
+    .title {
+      margin-top: 19px;
+      width: 227px;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 22px;
+      line-height: 26px;
     }
 
-    .search-post {
-      margin-left: 120px;
-      margin-bottom: 61px;
+    .descr {
+      margin-top: 8px;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 22px;
     }
+  }
+}
 
-    .select-post {
-      text-align: end;
-      margin-left: 260px;
-      margin-right: 122px;
-      margin-bottom: 25px;
+.search-post {
+  margin-left: 120px;
+  margin-bottom: 61px;
+}
 
-      .caregivers-post__about {
-        margin-left: 0;
-        margin-right: 16px;
-      }
+.select-post {
+  text-align: end;
+  margin-left: 260px;
+  margin-right: 122px;
+  margin-bottom: 25px;
+
+  .caregivers-post__about {
+    margin-left: 0;
+    margin-right: 16px;
+  }
+}
+
+.test-period-post {
+  margin-left: 120px;
+}
+
+.pay-after-post {
+  text-align: end;
+  margin-top: 61px;
+  margin-left: 260px;
+
+  .caregivers-post__about {
+    margin-left: 0;
+    margin-right: 16px;
+    .descr {
+      padding-bottom: 112px;
     }
+  }
 
-    .test-period-post {
-      margin-left: 120px;
-    }
+  .img-in-circle {
 
-    .pay-after-post {
-      text-align: end;
-      margin-top: 61px;
-      margin-left: 260px;
-
-      .caregivers-post__about {
-        margin-left: 0;
-        margin-right: 16px;
-        .descr {
-          padding-bottom: 112px;
-        }
-      }
-
-      .img-in-circle {
-
-        &__insidePicture {
-          top: 15px;
-          left: 22px;
-        }
-      }
+    &__insidePicture {
+      top: 15px;
+      left: 22px;
     }
   }
 }
@@ -174,23 +153,6 @@
       line-height: 80px;
       margin-left: 51px;
     }
-
-    &__button {
-      font-style: normal;
-      font-weight: bold;
-      font-size: 18px;
-      line-height: 38px;
-      align-items: center;
-      color: white;
-      width: 276px;
-      height: 72px;
-      border: 2px solid white;
-      background: rgba(0, 0, 0, 0.0001);
-      box-sizing: border-box;
-      border-radius: 5px;
-      margin-top: 80px;
-      margin-left: 60px;
-    }
   }
 }
 
@@ -201,12 +163,6 @@
       margin-top: 90px;
       font-size: 40px;
       line-height: 50px;
-    }
-
-    &__button {
-      width: 256px;
-      height: 62px;
-      margin-top: 60px;
     }
   }
 }
@@ -223,10 +179,6 @@
     &__title {
       margin-top: 50px;
       font-weight: 700;
-    }
-
-    &__button {
-      align-self: center;
     }
   }
 
@@ -296,61 +248,45 @@
   }
 }
 
-@media (max-width: 920px) {
+@media (max-width: 960px) {
   .arrow1,
   .arrow2,
   .arrow3 {
     display: none;
   }
-  .for-caregivers-right {
 
-    &__info {
-      .search-post,
-      .select-post,
-      .pay-after-post,
-      .test-period-post {
-        margin-bottom: 0;
-        margin-top: 0;
-      }
+  .search-post,
+  .select-post,
+  .pay-after-post,
+  .test-period-post {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
 
-      .pay-after-post {
-        .caregivers-post__about {
-          .descr {
-            padding-bottom: 50px;
-          }
-        }
+  .pay-after-post {
+    .caregivers-post__about {
+      .descr {
+        padding-bottom: 50px;
       }
     }
   }
 }
 
 @media (max-width: 680px) {
-
   .for-caregivers-left {
     &__title {
       margin-top: 10px;
       font-size: 28px;
     }
-
-    &__button {
-      font-size: 16px;
-      width: 200px;
-      line-height: 18px;
-    }
   }
 
-  .for-caregivers-right {
+  .select-post {
+    margin-right: 0;
+  }
 
-    &__info {
-      .select-post {
-        margin-right: 0;
-      }
-
-      .search-post,
-      .test-period-post {
-        margin-left: 0;
-      }
-    }
+  .search-post,
+  .test-period-post {
+    margin-left: 0;
   }
 }
 
@@ -361,35 +297,16 @@
       font-size: 24px;
       line-height: normal;
     }
-
-    &__button {
-      font-size: 14px;
-      width: 160px;
-      height: 40px;
-    }
   }
 
-  .for-caregivers-right {
-
-    &__info {
-      .select-post,
-      .pay-after-post {
-        margin-left: 70px;
-      }
-
-      .search-post,
-      .test-period-post,
-      .select-post {
-        margin-bottom: 20px;
-      }
-    }
+  .select-post,
+  .pay-after-post {
+    margin-left: 70px;
   }
-}
 
-.for-caregivers-left__button:hover {
-  background-color: $main-red-color;
-}
-
-.for-caregivers-left__button:active {
-  opacity: 0.6;
+  .search-post,
+  .test-period-post,
+  .select-post {
+    margin-bottom: 20px;
+  }
 }

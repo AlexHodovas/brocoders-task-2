@@ -11,75 +11,76 @@
     display: flex;
     flex-direction: column;
     margin-left: 102px;
-
-    .footer-logo {
-      margin-top: 85px;
-      margin-bottom: 33px;
-      .logo {
-        border-radius: 10px;
-        transition: background-color 0.5s, border-radius 0.1s ease-out;
-      }
-    }
-
-    .follow-us {
-      display: flex;
-
-      &__text {
-        margin-left: 5px;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 22px;
-        line-height: 26px;
-        margin-bottom: 12px;
-      }
-
-      &__text,
-      &__facebook,
-      &__twitter {
-        margin-right: 8px;
-      }
-    }
-
-    .copyright {
-      margin-top: 12px;
-      margin-left: 5px;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 14px;
-      line-height: 20px;
-    }
   }
 
   &__right {
     margin-top: 95px;
     margin-right: 42px;
+  }
+}
 
-    .useful-links {
-      display: flex;
-      width: 663px;
-      justify-content: space-between;
+.footer-logo {
+  margin-top: 85px;
+  margin-bottom: 33px;
 
-      &__about-portal,
-      &__cooperation,
-      &__help-center {
-        display: flex;
-        flex-direction: column;
+  .logo {
+    border-radius: 10px;
+    transition: background-color 0.5s, border-radius 0.1s ease-out;
+  }
+}
 
-        .topic {
-          margin-bottom: 31px;
-          font-style: normal;
-          font-weight: bold;
-          font-size: 22px;
-          line-height: 26px;
-        }
+.follow-us {
+  display: flex;
 
-        .link {
-          color: white;
-          line-height: 30px;
-          font-weight: normal;
-          transition: color 0.5s ease-out;
-        }
-      }
+  &__text {
+    margin-left: 5px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    margin-bottom: 12px;
+  }
+
+  &__text,
+  &__facebook,
+  &__twitter {
+    margin-right: 8px;
+  }
+}
+
+.copyright {
+  margin-top: 12px;
+  margin-left: 5px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.useful-links {
+  display: flex;
+  width: 663px;
+  justify-content: space-between;
+
+  &__about-portal,
+  &__cooperation,
+  &__help-center {
+    display: flex;
+    flex-direction: column;
+
+    .topic {
+      margin-bottom: 31px;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 22px;
+      line-height: 26px;
+    }
+
+    .link {
+      color: white;
+      line-height: 30px;
+      font-weight: normal;
+      transition: color 0.5s ease-out;
     }
   }
 }
@@ -88,22 +89,19 @@
   .footer {
     &__left {
       margin-left: 30px;
-
-      .footer-logo {
-        margin-top: 90px;
-
-        .logo {
-          width: 160px;
-        }
-      }
     }
+  }
 
-    &__right {
+  .footer-logo {
+    margin-top: 90px;
 
-      .useful-links {
-        width: 550px;
-      }
+    .logo {
+      width: 160px;
     }
+  }
+
+  .useful-links {
+    width: 550px;
   }
 }
 
@@ -114,19 +112,19 @@
 
       &__left {
         margin: 0 auto;
-
-        .footer-logo {
-          margin-top: 30px;
-
-          .logo {
-            width: 220px;
-          }
-        }
       }
 
     &__right {
       margin-right: 0;
       margin-top: 30px;
+    }
+  }
+
+  .footer-logo {
+    margin-top: 30px;
+
+    .logo {
+      width: 220px;
     }
   }
 }
@@ -138,29 +136,27 @@
 
       &__left {
         margin: 0 auto;
-
-        .footer-logo {
-          margin-top: 30px;
-
-          .logo {
-            width: 220px;
-          }
-        }
       }
+  }
 
-    &__right {
-      .useful-links {
-        width: min-content;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
+  .footer-logo {
+    margin-top: 30px;
 
-        &__about-portal,
-        &__cooperation,
-        &__help-center {
-          margin-bottom: 30px;
-        }
-      }
+    .logo {
+      width: 220px;
+    }
+  }
+
+  .useful-links {
+    width: min-content;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    &__about-portal,
+    &__cooperation,
+    &__help-center {
+      margin-bottom: 30px;
     }
   }
 }

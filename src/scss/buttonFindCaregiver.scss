@@ -1,0 +1,74 @@
+@import "./utils/vars.scss";
+
+.button-find-caregiver {
+    width: 274px;
+    height: 68px;
+    font-size: 18px;
+    color: white;
+    background-color: $main-red-color;
+    border-radius: 5px;
+    transition: background-color 0.7s ease-out;
+
+    &:active  {
+        opacity: 0.6;
+    }
+
+     &:hover  {
+        background-color: $main-blue-color;
+    }
+
+    &--white {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 38px;
+        align-items: center;
+        color: white;
+        width: 276px;
+        height: 72px;
+        border: 2px solid white;
+        background: rgba(0, 0, 0, 0.0001);
+        box-sizing: border-box;
+
+        &:hover {
+            background-color: $main-red-color;
+        }
+    }
+}
+
+.header-bottom__button {
+    margin-top: 45px;
+}
+
+.for-caregivers-left__button {
+    margin-top: 80px;
+    margin-left: 60px;
+}
+
+.statics-right__button {
+    margin-top: 67px;
+}
+
+@media (max-width: $breakpoint-laptop) {
+    .button-find-caregiver {
+        width: 200px;
+        height: 44px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: $breakpoint-tablet) {
+    .header-bottom__button {
+        margin-top: 20px;
+    }
+
+    .button-find-caregiver {
+        width: 180px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .statics-right__button {
+        margin-top: 30px;
+    }
+}

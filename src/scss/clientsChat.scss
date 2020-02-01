@@ -1,4 +1,6 @@
 .clients-chat {
+  display: block!important;
+
   &__title-h4 {
     margin-top: 69px;
     margin-bottom: 45px;
@@ -17,63 +19,63 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+  }
 
-    .post {
-      width: 410px;
-      height: 219px;
-      margin-bottom: 40px;
-      background: url(../img/clients-chat/rectangular.png) no-repeat;
-      background-size: contain;
+  .post {
+    width: 410px;
+    height: 219px;
+    margin-bottom: 40px;
+    background: url(../img/clients-chat/rectangular.png) no-repeat;
+    background-size: contain;
 
-      &__comment {
-        margin-left: 22px;
+    &__comment {
+      margin-left: 22px;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 22px;
+      color: #0B2A37;
+    }
+
+    &__autor {
+      margin-top: 70px;
+      margin-left: 231px;
+      display: flex;
+
+      &-avatar {
+        width: 50px;
+        height: 50px;
+        background: url(../img/clients-chat/aneta.png) no-repeat;
+        border-radius: 50%;
+        background-size: cover;
+        background-position-x: center;
+
+        &--katarzyna {
+          background: url(../img/clients-chat/katarzyna.png) no-repeat;
+          background-position-x: center;
+          background-size: cover;
+        }
+      }
+    }
+
+    .autor-info {
+      display: flex;
+      flex-direction: column;
+
+      &__name {
+        width: max-content;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 26px;
+        align-self: flex-end;
+      }
+
+      &__role {
         font-style: normal;
         font-weight: normal;
         font-size: 16px;
-        line-height: 22px;
-        color: #0B2A37;
-      }
-
-      &__autor {
-        margin-top: 70px;
-        margin-left: 231px;
-        display: flex;
-
-        .autor-info {
-          display: flex;
-          flex-direction: column;
-
-          &__name {
-            width: max-content;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 16px;
-            line-height: 26px;
-            align-self: flex-end;
-          }
-
-          &__role {
-            font-style: normal;
-            font-weight: normal;
-            font-size: 16px;
-            line-height: 26px;
-          }
-        }
-
-        &-avatar {
-          width: 50px;
-          height: 50px;
-          background: url(../img/clients-chat/aneta.png) no-repeat;
-          border-radius: 50%;
-          background-size: cover;
-          background-position-x: center;
-
-          &--katarzyna {
-            background: url(../img/clients-chat/katarzyna.png) no-repeat;
-            background-position-x: center;
-            background-size: cover;
-          }
-        }
+        line-height: 26px;
       }
     }
   }
@@ -89,11 +91,8 @@
       line-height: 50px;
     }
 
-    &__posts {
-
-      .post {
-        width: 500px;
-      }
+    .post {
+      width: 500px;
     }
   }
 }

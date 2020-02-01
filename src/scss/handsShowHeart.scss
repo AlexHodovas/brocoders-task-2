@@ -1,29 +1,30 @@
-.doctor-hands-heart {
+.hands-show-heart {
   height: 470px;
   background: url(../img/doctor-hands-heart.png) no-repeat;
   background-size: cover;
+  background-position-y: bottom;
 }
 
 @media (max-width: 1200px) {
-  .doctor-hands-heart {
+  .hands-show-heart {
     height: 400px;
   }
 }
 
 @media (max-width: 1000px) {
-  .doctor-hands-heart {
+  .hands-show-heart {
     height: 350px;
   }
 }
 
 @media (max-width: 800px) {
-  .doctor-hands-heart {
+  .hands-show-heart {
     height: 250px;
   }
 }
 
 @media (max-width: 600px) {
-  .doctor-hands-heart {
+  .hands-show-heart {
     height: 200px;
   }
 }

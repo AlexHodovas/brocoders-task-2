@@ -63,11 +63,21 @@
             <span></span>
 
             <ul id="menu">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Info</a></li>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Contact</a></li>
+              <li>
+                <a id="scrollToSpecialistics">Specialistics</a>
+              </li>
+              <li>
+                <a id="scrollToForCaregivers">For caregivers</a>
+              </li>
+              <li>
+                <a id="scrollToClientsChat">Clients chat</a>
+              </li>
+              <li>
+                <a id="scrollToStatistics">Statistics</a>
+              </li>
+              <li>
+                <a id="scrollToFooter">Bottom</a>
+              </li>
             </ul>
           </div>
           
@@ -83,7 +93,7 @@
           <br />
            opiekunek
         </p>
-        <button class="header-bottom__find-caregiver button" type="button">
+        <button class="header-bottom__button button-find-caregiver" type="button">
           ZNAJDŹ OPIEKUNKĘ
         </button>
       </div>
@@ -92,14 +102,14 @@
 
     <main class="main">
 
-      <section class="care-with-company">
+      <section class="care-with-company block">
         <h2>Want to care with Geriana?&ensp;</h2>
         <a href="#" class="care-with-company__become-a-caregiver">
           Become&ensp;a&ensp;Caregiver
         </a>
       </section>
 
-      <section class="specialists">
+      <section class="specialists block" id="specialistics">
 
         <h3 class="specialists__title-h3">Specjaliści Różnych Kategorii</h3>
 
@@ -155,10 +165,10 @@
 
       </section>
 
-      <div class="women-with-doctor">
+      <div class="women-with-doctor-smiling">
       </div>
 
-      <section class="for-caregivers">
+      <section class="for-caregivers block" id="forCaregivers">
 
         <div class="for-caregivers-left">
 
@@ -168,7 +178,10 @@
             Poszukujących <br />
              Opieki
           </h3>
-          <button class="for-caregivers-left__button" type="button">
+          <button 
+            class="for-caregivers-left__button button-find-caregiver button-find-caregiver--white" 
+            type="button"
+          >
             ZNAJDŹ&ensp;OPIEKUNKĘ
           </button>
         </div>
@@ -286,10 +299,10 @@
 
       </section>
 
-      <div class="doctor-hands-heart">
+      <div class="hands-show-heart">
       </div>
 
-      <section class="clients-chat">
+      <section class="clients-chat block" id="clientsChat">
 
         <h4 class="clients-chat__title-h4">
           What do our Clients Say?
@@ -425,10 +438,10 @@
 
       </section>
 
-      <div class="people-with-laptop">
+      <div class="people-with-laptop-smiling">
       </div>
 
-      <section class="statistics">
+      <section class="statistics block" id="statistics">
 
         <div class="statistics__left">
 
@@ -494,7 +507,10 @@
           <h4 class="statics-title">
             Nasze Mocne  <br /> Strony
           </h4>
-          <button class="statics-button" type="button">
+          <button 
+            class="statics-right__button button-find-caregiver button-find-caregiver--white"
+            type="button"
+          >
             ZNAJDŹ OPIEKUNKĘ
           </button>
           <img class="statistics-heart" src="./img/statistics/heart.png" alt="heart">
@@ -502,7 +518,7 @@
 
       </section>
 
-      <section class="call-to-us">
+      <section class="call-to-us block">
 
         <div class="call-to-us__question-and-answer">
           <h5 class="question">
@@ -521,7 +537,7 @@
 
     </main>
 
-    <footer class="footer">
+    <footer class="footer" id="footer">
 
       <div class="footer__left">
 
@@ -587,3 +603,12 @@
 </body>
 
 </html>
+
+<!-- 1
+2
+ Значение атрибута может быть произвольным 
+<h2 id="a1">Заголовок</h2>
+Теперь, чтобы при клике по ссылке был выполнен переход к элементу, который находится на одной странице с ведущей на него ссылкой, нужно в качестве значения атрибута href элемента <a> написать символ решётки (#), после которого указать идентификатор элемента, к которому будет выполнен переход:
+
+1
+<a href="#a1">ссылка</a> -->
