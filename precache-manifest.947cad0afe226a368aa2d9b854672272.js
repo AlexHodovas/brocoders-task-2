@@ -1,15 +1,15 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bb8bd6d18b0a40c06266ba9b505f07b4",
+    "revision": "f27c4b3fd18d81ebc640745660ad6e39",
     "url": "/brocoders-task-2/index.html"
   },
   {
-    "revision": "8e0a91a4b7d8989604b1",
-    "url": "/brocoders-task-2/static/css/main.75c1e056.chunk.css"
+    "revision": "80f6c3535d8feb72af02",
+    "url": "/brocoders-task-2/static/css/main.2fb7e59c.chunk.css"
   },
   {
-    "revision": "8e0a91a4b7d8989604b1",
-    "url": "/brocoders-task-2/static/js/main.6b9181c5.chunk.js"
+    "revision": "80f6c3535d8feb72af02",
+    "url": "/brocoders-task-2/static/js/main.52c5f79b.chunk.js"
   },
   {
     "revision": "b04b5388cead102f8912",
@@ -32,7 +32,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/brocoders-task-2/static/media/people-with-laptop.26896e34.png"
   },
   {
-    "revision": "53d7cf433f8f788d0a6217126c1a4cf4",
-    "url": "/brocoders-task-2/static/media/women-with-doctor.53d7cf43.png"
+    "revision": "fafc7c0504eda945fe8520b5505a3492",
+    "url": "/brocoders-task-2/static/media/women-with-doctor.fafc7c05.png"
   }
 ]);
