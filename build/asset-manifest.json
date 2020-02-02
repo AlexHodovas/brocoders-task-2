@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/brocoders-task-2/static/css/main.2fb7e59c.chunk.css",
+    "main.css": "/brocoders-task-2/static/css/main.738ef136.chunk.css",
     "main.js": "/brocoders-task-2/static/js/main.52c5f79b.chunk.js",
     "main.js.map": "/brocoders-task-2/static/js/main.52c5f79b.chunk.js.map",
     "runtime-main.js": "/brocoders-task-2/static/js/runtime-main.c117d987.js",
     "runtime-main.js.map": "/brocoders-task-2/static/js/runtime-main.c117d987.js.map",
     "index.html": "/brocoders-task-2/index.html",
-    "precache-manifest.947cad0afe226a368aa2d9b854672272.js": "/brocoders-task-2/precache-manifest.947cad0afe226a368aa2d9b854672272.js",
+    "precache-manifest.b905411fcf3ac40dcad394e51a5ef4ff.js": "/brocoders-task-2/precache-manifest.b905411fcf3ac40dcad394e51a5ef4ff.js",
     "service-worker.js": "/brocoders-task-2/service-worker.js",
-    "static/css/main.2fb7e59c.chunk.css.map": "/brocoders-task-2/static/css/main.2fb7e59c.chunk.css.map",
+    "static/css/main.738ef136.chunk.css.map": "/brocoders-task-2/static/css/main.738ef136.chunk.css.map",
     "static/media/main.scss": "/brocoders-task-2/static/media/women-with-doctor.fafc7c05.png"
   },
   "entrypoints": [
     "static/js/runtime-main.c117d987.js",
-    "static/css/main.2fb7e59c.chunk.css",
+    "static/css/main.738ef136.chunk.css",
     "static/js/main.52c5f79b.chunk.js"
   ]
 }
