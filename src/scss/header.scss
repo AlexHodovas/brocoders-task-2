@@ -13,11 +13,11 @@
 
   &__logo {
     margin-right: 28px;
-    margin-top: 19px;
-    margin-left: 17px;
+    margin-top: 20px;
+    margin-left: 16px;
 
     .logo {
-      width: 263px;
+      width: 260px;
       min-width: 100px;
       height: 60px;
       object-fit: contain;
@@ -42,12 +42,12 @@
           display: flex;
           align-items: center;
           flex-flow: nowrap;
-          padding-top: 11px;
-          padding-bottom: 9px;
+          padding-top: 10px;
+          padding-bottom: 10px;
           padding-right: 25px;
           border: 2px solid #fff;
           border-radius: 5px;
-          margin-right: 11px;
+          margin-right: 10px;
           transition: background-color 0.7s ease-out;
 
           .question-mark {
@@ -67,7 +67,7 @@
         }
 
         &__sign-up {
-          margin-left: 543px;
+          margin-left: 540px;
           margin-left: 100%;
           margin-right: 10px;
           padding-top: 22px;
@@ -217,6 +217,8 @@
 
       .logo {
         width: 140px;
+        margin-left: 12px;
+        margin-bottom: 10px;
       }
     }
 
