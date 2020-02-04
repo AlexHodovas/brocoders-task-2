@@ -5,30 +5,30 @@
   margin: 0 auto;
   background-color: white;
 
-  &__title-h3 {
-    margin-top: 50px;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 36px;
-    line-height: 100px;
+  &__title-h2 {
     display: flex;
     justify-content: center;
+    margin-top: 50px;
+    font-weight: 900;
+    font-size: 36px;
+    font-style: normal;
+    line-height: 100px;
   }
 
   &__options {
     display: flex;
+    justify-content: space-between;
     margin-left: 45px;
     margin-right: 45px;
-    justify-content: space-between;
   }
 }
 
 .post {
-  padding-top: 30px;
-  width: 270px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 270px;
+  padding-top: 30px;
 
   .post__title {
     margin-top: 35px;
@@ -107,7 +107,7 @@
 
 @media (max-width: 1100px) {
   .specialists {
-    &__title-h3 {
+    &__title-h2 {
       margin-top: 50px;
       font-weight: 700;
       font-size: 30px;
@@ -123,7 +123,7 @@
 
 @media (max-width: 950px) {
   .specialists {
-    &__title-h3 {
+    &__title-h2 {
       font-weight: 700;
       font-size: 26px;
       line-height: 60px;
@@ -188,9 +188,9 @@
   }
 
   .post {
+    width: 370px;
     padding-top: 30px;
     padding-bottom: 30px;
-    width: 370px;
   }
 
   .kind-of-care {

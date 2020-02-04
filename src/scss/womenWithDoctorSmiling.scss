@@ -1,17 +1,30 @@
 .women-with-doctor-smiling {
-  height: 520px;
+  height: 850px;
   background: url(../img/women-with-doctor.png) no-repeat;
   background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 1000px) {
+  .women-with-doctor-smiling {
+    height: 700px;
+  }
 }
 
 @media (max-width: 800px) {
   .women-with-doctor-smiling {
-    height: 400px;
+    height: 600px;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
   .women-with-doctor-smiling {
-    height: 300px;
+    height: 500px;
+  }
+}
+
+@media (max-width: 500px) {
+  .women-with-doctor-smiling {
+    height: 400px;
   }
 }

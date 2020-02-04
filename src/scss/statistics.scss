@@ -1,12 +1,12 @@
 @import './utils/vars.scss';
 
 .statistics {
+  display: flex;
   position: relative;
   padding-top: 159px;
   padding-bottom: 136px;
   background-color: #005173;
   color: white;
-  display: flex;
 
   &__left {
     width: 480px;
@@ -26,27 +26,27 @@
     margin-bottom: 35px;
 
     &__line {
-      height: 2px;
       width: 50px;
+      height: 2px;
       background: $main-blue-color;
     }
 
     &__text {
       margin-top: 10px;
-      font-style: normal;
-      font-weight: normal;
       font-size: 16px;
       line-height: 22px;
+      font-style: normal;
+      font-weight: normal;
     }
   }
 }
 
 .statics-title {
   margin-top: 110px;
-  font-style: normal;
-  font-weight: 900;
   font-size: 80px;
   line-height: 100px;
+  font-style: normal;
+  font-weight: 900;
 }
 
 .statistics-heart {

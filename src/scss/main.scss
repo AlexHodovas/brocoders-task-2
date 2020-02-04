@@ -13,8 +13,8 @@
 @import "./callToUs.scss";
 @import "./footer.scss";
 
-@import "./hamburgerMenu.scss";
-@import "./buttonFindCaregiver.scss";
+@import "../scss/components/hamburgerMenu.scss";
+@import "../scss/components/buttonFindCaregiver.scss";
 
 body {
   margin: 0;
@@ -26,6 +26,14 @@ body {
 .wrapper {
   max-width: 1440px;
   margin: 0 auto;
+}
+
+li {
+  transition: text-decoration 0.7s ease-out;
+  
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 button:hover {
@@ -52,7 +60,11 @@ a:active {
   opacity: 0.6;
 }
 
-* {
+a,
+h1, 
+h2,
+button,
+img {
   user-select: none;
 }
 

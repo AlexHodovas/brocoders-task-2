@@ -5,6 +5,7 @@ const forCaregivers = document.getElementById('forCaregivers');
 const clientsChat = document.getElementById('clientsChat');
 const statistics = document.getElementById('statistics');
 const footer = document.getElementById('footer');
+const inputOnMenu = document.getElementById('inputOnMenu');
 
 const scrollToSpecialistics = document.getElementById('scrollToSpecialistics');
 const scrollToForCaregivers = document.getElementById('scrollToForCaregivers');
@@ -12,16 +13,22 @@ const scrollToClientsChat = document.getElementById('scrollToClientsChat');
 const scrollToStatistics = document.getElementById('scrollToStatistics');
 const scrollToFooter = document.getElementById('scrollToFooter');
 
+function closeMenuAfterScrollToAnotherBlock() {
+    return inputOnMenu.checked = false; 
+}
+
 function getCoordY(elem) {
     let box = elem.getBoundingClientRect();
     return box.top; 
 }
 
 function scrollTo(y) {
-    return window.scrollTo({
+    window.scrollTo({
         top: y,
         behavior: "smooth"
-    })
+    }) 
+
+    closeMenuAfterScrollToAnotherBlock();
 }
 
 scrollToSpecialistics.addEventListener('click', () => {

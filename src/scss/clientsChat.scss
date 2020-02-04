@@ -1,11 +1,11 @@
 .clients-chat {
   display: block!important;
 
-  &__title-h4 {
-    margin-top: 70px;
-    margin-bottom: 45px;
+  &__title-h2 {
     display: flex;
     justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 45px;
     font-style: normal;
     font-weight: 900;
     font-size: 36px;
@@ -14,18 +14,18 @@
   }
 
   &__posts {
-    margin-left: 35px;
-    margin-right: 35px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin-left: 35px;
+    margin-right: 35px;
   }
 
   .post {
     width: 410px;
     height: 220px;
     margin-bottom: 40px;
-    background: url(../img/clients-chat/rectangular.png) no-repeat;
+    background: url(../img/clientsChat/rectangular.png) no-repeat;
     background-size: contain;
 
     &__comment {
@@ -45,37 +45,37 @@
       &-avatar {
         width: 50px;
         height: 50px;
-        background: url(../img/clients-chat/aneta.png) no-repeat;
+        background: url(../img/clientsChat/aneta.png) no-repeat;
         border-radius: 50%;
         background-size: cover;
         background-position-x: center;
 
         &--katarzyna {
-          background: url(../img/clients-chat/katarzyna.png) no-repeat;
+          background: url(../img/clientsChat/katarzyna.png) no-repeat;
           background-position-x: center;
           background-size: cover;
         }
       }
-    }
 
-    .autor-info {
-      display: flex;
-      flex-direction: column;
-
-      &__name {
-        width: max-content;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 16px;
-        line-height: 26px;
-        align-self: flex-end;
-      }
-
-      &__role {
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 26px;
+      .autor-info {
+        display: flex;
+        flex-direction: column;
+  
+        &__name {
+          width: max-content;
+          align-self: flex-end;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 16px;
+          line-height: 26px;
+        }
+  
+        &__role {
+          font-size: 16px;
+          line-height: 26px;
+          font-style: normal;
+          font-weight: normal;
+        }
       }
     }
   }

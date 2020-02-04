@@ -1,11 +1,11 @@
 @import "./utils/vars.scss";
 
 .footer {
-  background: #0B2A37;
-  color: white;
-  padding-bottom: 90px;
   display: flex;
   justify-content: space-between;
+  padding-bottom: 90px;
+  background: #0B2A37;
+  color: white;
 
   &__left {
     display: flex;
@@ -34,11 +34,11 @@
 
   &__text {
     margin-left: 5px;
-    font-style: normal;
-    font-weight: bold;
+    margin-bottom: 12px;
     font-size: 22px;
     line-height: 26px;
-    margin-bottom: 12px;
+    font-style: normal;
+    font-weight: bold;
   }
 
   &__text,
@@ -51,16 +51,16 @@
 .copyright {
   margin-top: 12px;
   margin-left: 5px;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 20px;
+  font-style: normal;
+  font-weight: normal;
 }
 
 .useful-links {
   display: flex;
-  width: 663px;
   justify-content: space-between;
+  width: 663px;
 
   &__about-portal,
   &__cooperation,
@@ -70,15 +70,15 @@
 
     .topic {
       margin-bottom: 30px;
-      font-style: normal;
-      font-weight: bold;
       font-size: 22px;
       line-height: 26px;
+      font-style: normal;
+      font-weight: bold;
     }
 
     .link {
-      color: white;
       line-height: 30px;
+      color: white;
       font-weight: normal;
       transition: color 0.5s ease-out;
     }

@@ -1,8 +1,8 @@
 @import "./utils/vars.scss";
 
 .for-caregivers {
-  color: white;
   display: flex;
+  color: white;
   background-color: $main-green-color
 }
 
@@ -13,11 +13,11 @@
 
   &__title {
     margin-top: 172px;
-    font-style: normal;
-    font-weight: 900;
+    margin-left: 60px;
     font-size: 80px;
     line-height: 100px;
-    margin-left: 60px;
+    font-style: normal;
+    font-weight: 900;
   }
 }
 
@@ -44,20 +44,20 @@
     margin-left: 18px;
 
     .title {
-      margin-top: 18px;
       width: 227px;
-      font-style: normal;
-      font-weight: bold;
+      margin-top: 18px;
       font-size: 22px;
       line-height: 26px;
+      font-style: normal;
+      font-weight: bold;
     }
 
     .descr {
       margin-top: 8px;
-      font-style: normal;
-      font-weight: normal;
       font-size: 16px;
       line-height: 22px;
+      font-style: normal;
+      font-weight: normal;
     }
   }
 }
