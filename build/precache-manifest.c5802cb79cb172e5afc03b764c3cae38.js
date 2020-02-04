@@ -1,14 +1,14 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9ffbf9ff91640c925256cd55fd32e61d",
+    "revision": "fb585a8bf7d14c20b41a4ffb20f0116e",
     "url": "/brocoders-task-2/index.html"
   },
   {
-    "revision": "43b2147975a38898c472",
-    "url": "/brocoders-task-2/static/css/main.1f6dfca0.chunk.css"
+    "revision": "6dfc545d7c13db336a3e",
+    "url": "/brocoders-task-2/static/css/main.d828d3e9.chunk.css"
   },
   {
-    "revision": "43b2147975a38898c472",
+    "revision": "6dfc545d7c13db336a3e",
     "url": "/brocoders-task-2/static/js/main.04cbb654.chunk.js"
   },
   {
