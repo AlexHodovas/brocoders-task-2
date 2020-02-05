@@ -70,15 +70,17 @@
 
 @media (max-width: 900px) {
   .statistics {
+    flex-direction: column-reverse;
+    align-items: center;
     padding-top: 70px;
     padding-bottom: 20px;
 
     &__left {
-      margin-left: 80px;
+      margin-left: 0;
     }
 
     &__right {
-      margin-left: 60px;
+      margin-left: 0;
     }
   }
 
